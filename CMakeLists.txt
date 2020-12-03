@@ -4,5 +4,6 @@ project(quake_proj C)
 
 include(CTest)
 
+option(UNIT_TESTS_ENABLED "Enable unit tests" ON)
+
 add_subdirectory(my_module)
-add_subdirectory(test)
