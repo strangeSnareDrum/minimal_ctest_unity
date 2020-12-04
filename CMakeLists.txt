@@ -6,4 +6,8 @@ include(CTest)
 
 option(UNIT_TESTS_ENABLED "Enable unit tests" ON)
 
+if(UNIT_TESTS_ENABLED)
+    add_subdirectory(externals/Unity)
+endif()
+
 add_subdirectory(my_module)
