@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(quake_proj C)
+project(minimal_ctest_unity C)
 
 include(CTest)
 
@@ -10,4 +10,4 @@ if(UNIT_TESTS_ENABLED)
     add_subdirectory(externals/Unity)
 endif()
 
-add_subdirectory(my_module)
+add_subdirectory(module)
